@@ -1,0 +1,10 @@
+.content {
+    background-color: #58AEFF;
+    color: #ffffff;
+    padding: 100px;
+    flex-direction: column;
+  }
+  .sponsor{
+   display: flex;
+   justify-content: center;
+  }

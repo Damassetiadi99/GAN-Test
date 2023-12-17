@@ -1,0 +1,62 @@
+
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: darkgray;
+
+} 
+ .test {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 6px;
+    color: #ffffff;
+    
+  }
+  
+  .face{
+    min-height: 150px;
+    max-height: 250px;
+    width: 100px;
+    margin-left: 50px;
+  }
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 70px;
+    box-shadow: #fff;
+  }
+  .sortsView {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-right: 7rem;
+    color: #58AEFF
+  }
+  .sponsor{
+    background-color: aqua;
+    height: 200px;
+    width: 160px;
+  }
+  .cover{
+    background-color:#58AEFF;
+  }
+  .atas{
+    margin-top:8rem;
+    color: #58AEFF;
+  }
+  .drop{
+    color: #58AEFF;
+    margin-top: 2rem;
+  }
