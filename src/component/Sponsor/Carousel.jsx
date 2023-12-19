@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Sponsor() {
   return (
     <Carousel fade>
-              <h1 className='align-center my-4 gap-3'>Our Sponsor</h1>
+              <h6 className='my-4 gap-3'> Thanks to our sponsor :</h6>
 
       <Carousel.Item>
         <img src={telkomsel} alt="telkomsel" />
